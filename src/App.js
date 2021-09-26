@@ -58,6 +58,13 @@ export default class App extends Lightning.Component {
         color: 0xfffbb03b,
         src: Utils.asset('images/background.png'),
       },
+      Logo: {
+            mountX: 0.5,
+            mountY: 1,
+            x: 960,
+            y: 600,
+            src: Utils.asset('images/logo.png'),
+          },
       MyTexture: {
         x: 200,
         y: 250,
